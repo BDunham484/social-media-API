@@ -1,8 +1,7 @@
 //import the Schema constructor and the model function from mongoose
 const { Schema, model } = require('mongoose');
-
+//create the schema for the model using the Schema constructor and define the fields
 const UserSchema = new Schema({
-
     userName: {
         type: String,
         unique: true,
@@ -30,4 +29,10 @@ const UserSchema = new Schema({
             ref: 'User'
         }
     ]
-})
+});
+
+//create the user model using the UserSchema
+const User = model('User', UserSchema);
+
+//export the User Model
+module.exports = User;
