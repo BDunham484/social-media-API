@@ -1,5 +1,6 @@
 //import express.js router
 const router = require('express').Router();
+//import user controllers
 const {
     getAllUsers,
     getUserById,
