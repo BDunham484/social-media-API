@@ -1,6 +1,6 @@
 //import the Schema constructor and the model function from mongoose
 const { Schema, model } = require('mongoose');
-//create the schema for the model using the Schema constructor and define the fields
+//create the schema for the model using the Schema constructor and outline the fields
 const UserSchema = new Schema({
     userName: {
         type: String,
