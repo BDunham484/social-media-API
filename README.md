@@ -34,7 +34,7 @@ Back to [top of page](# )
 ## Usage
 
 * Run `npm start` from command line and enter `http://localhost:3001' in browser's address bar
-* https://img.shields.io/badge/GET-getAllUsers-blueviolet: `http://localhost:3001/api/users`
+* ![Technologies](https://img.shields.io/badge/GET-getAllUsers-blueviolet): `http://localhost:3001/api/users`
 
 
 
