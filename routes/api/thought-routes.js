@@ -21,20 +21,20 @@ router
     .route('/:id')
     .put(updateThought)
     .get(getThoughtById);
-
-router
-    .route('/:userId')
-    // .post(addThought);
     
 
 router
     .route('/:userId/:thoughtId')
-    .put(addReaction)
     .delete(deleteThought);
 
 router
-    .route('/:thoughtId/:reactionId')
-    .delete(removeReaction);
+    .route('/:thoughtId/reactions')
+    .put(addReaction);
+
+router
+    .route('/:thoughtId/reactions/:reactionId')
+    .put(removeReaction);
+
 
 //export routes
 module.exports = router;
