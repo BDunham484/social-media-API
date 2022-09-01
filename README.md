@@ -36,18 +36,18 @@ Back to [top of page](# )
 * Run `npm start` from command line and enter `http://localhost:3001' in browser's address bar
 * ![ROUTES](https://img.shields.io/badge/GET-getAllUsers-blueviolet) <br>`http://localhost:3001/api/users`<br>
 * ![ROUTES](https://img.shields.io/badge/GET-getUserById-blueviolet) <br>`http://localhost:3001/api/users/:userId`<br>
-* ![ROUTES](https://img.shields.io/badge/GET-geAllThoughts-blueviolet) <br>`http://localhost:3001/api/users/:userId`<br>
-* ![ROUTES](https://img.shields.io/badge/GET-getThoughtById-blueviolet) <br>`http://localhost:3001/api/users/:userId`<br>
-* ![ROUTES](https://img.shields.io/badge/POST-createUser-brightgreen) <br>`http://localhost:3001/api/users/:userId`<br>
-* ![ROUTES](https://img.shields.io/badge/POST-addFriend-brightgreen) <br>`http://localhost:3001/api/users/:userId`<br>
-* ![ROUTES](https://img.shields.io/badge/POST-addThought-brightgreen) <br>`http://localhost:3001/api/users/:userId`<br>
-* ![ROUTES](https://img.shields.io/badge/POST-addReaction-brightgreen) <br>`http://localhost:3001/api/users/:userId`<br>
-* ![ROUTES](https://img.shields.io/badge/PUT-updateUser-orange) <br>`http://localhost:3001/api/users/:userId`<br>
-* ![ROUTES](https://img.shields.io/badge/PUT-updateThought-orange) <br>`http://localhost:3001/api/users/:userId`<br>
-* ![ROUTES](https://img.shields.io/badge/DEL-deleteUser-red) <br>`http://localhost:3001/api/users/:userId`<br>
-* ![ROUTES](https://img.shields.io/badge/DEL-removeFriend-red) <br>`http://localhost:3001/api/users/:userId`<br>
-* ![ROUTES](https://img.shields.io/badge/DEL-deleteThought-red) <br>`http://localhost:3001/api/users/:userId`<br>
-* ![ROUTES](https://img.shields.io/badge/DEL-removeReaction-red) <br>`http://localhost:3001/api/users/:userId`<br>
+* ![ROUTES](https://img.shields.io/badge/GET-geAllThoughts-blueviolet) <br>`http://localhost:3001/api/thoughts`<br>
+* ![ROUTES](https://img.shields.io/badge/GET-getThoughtById-blueviolet) <br>`http://localhost:3001/api/thoughts/:id`<br>
+* ![ROUTES](https://img.shields.io/badge/POST-createUser-brightgreen) <br>`http://localhost:3001/api/users`<br>
+* ![ROUTES](https://img.shields.io/badge/POST-addFriend-brightgreen) <br>`http://localhost:3001/api/users/:useId/friends/:friendId`<br>
+* ![ROUTES](https://img.shields.io/badge/POST-addThought-brightgreen) <br>`http://localhost:3001/api/thoughts`<br>
+* ![ROUTES](https://img.shields.io/badge/POST-addReaction-brightgreen) <br>`http://localhost:3001/api/thoughts/:thoughtId/reactions`<br>
+* ![ROUTES](https://img.shields.io/badge/PUT-updateUser-orange) <br>`http://localhost:3001/api/users/:id`<br>
+* ![ROUTES](https://img.shields.io/badge/PUT-updateThought-orange) <br>`http://localhost:3001/api/thoughts/:id`<br>
+* ![ROUTES](https://img.shields.io/badge/DEL-deleteUser-red) <br>`http://localhost:3001/api/users/:id`<br>
+* ![ROUTES](https://img.shields.io/badge/DEL-removeFriend-red) <br>`http://localhost:3001/api/users/:userId/friends/:frinedId`<br>
+* ![ROUTES](https://img.shields.io/badge/DEL-deleteThought-red) <br>`http://localhost:3001/api/thoughts/:userId/:thoughtId`<br>
+* ![ROUTES](https://img.shields.io/badge/DEL-removeReaction-red) <br>`http://localhost:3001/api/thoughts/:thoughtId/reactions/reactionId`<br>
 
 Back to [top of page](# )
 
