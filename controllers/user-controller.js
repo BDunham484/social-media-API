@@ -87,10 +87,9 @@ const UserController = {
     //delete user by id
     deleteUser({ params }, res) {
         User.findOneAndDelete({ _id: params.id })
-            .then(data => {
-                console.log(data)
+            .then(({userName}) => {
                 return Thought.deleteMany(
-                    { userName: data.userName },
+                    { userName: userName },
                     { new: true } 
                 )
             })
