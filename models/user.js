@@ -1,5 +1,6 @@
 //import the Schema constructor and the model function from mongoose
 const { Schema, model } = require('mongoose');
+
 //create the schema for the model using the Schema constructor and outline the fields
 const UserSchema = new Schema({
         userName: {
@@ -39,8 +40,11 @@ const UserSchema = new Schema({
 );
 
 //get total count of thoughts and reactions on retrieval
+// UserSchema.virtual('thoughtCount').get(function () {
+//     return this.thoughts.reduce((total, thought) => total + thought.reactions.length + 1, 0);
+// });
 UserSchema.virtual('thoughtCount').get(function () {
-    return this.thoughts.reduce((total, thought) => total + thought.reactions.length + 1, 0);
+    return this.thoughts.length;
 });
 //get total count of friends on retrieval
 UserSchema.virtual('friendCount').get(function() {

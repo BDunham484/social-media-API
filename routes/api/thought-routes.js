@@ -29,11 +29,12 @@ router
 
 router
     .route('/:thoughtId/reactions')
-    .put(addReaction);
+    .post(addReaction)
+    // .delete(removeReaction);
 
 router
     .route('/:thoughtId/reactions/:reactionId')
-    .put(removeReaction);
+    .delete(removeReaction);
 
 
 //export routes
