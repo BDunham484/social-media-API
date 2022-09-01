@@ -16,16 +16,10 @@
 - [Made With](#made-with)
 - [Contributing](#contributing)
 
-## Local Installation
+## Installation
 
 * Run `npm init -y` from command line
 * run `npm i` to install dependencies
-* Create a .env file in the root folder
-* In the .env file, enter your MySQL login credentials in the following format:
-* `DB_NAME='kenny_bloggins_db'`
-* `DB_USER='<username>'`
-* `DB_PW='<password>'`
-* App can be seeded by running `npm run seed`
 
 ![MVC-blogging-site](./assets/images/tech-blog-install.png)
 
@@ -33,7 +27,7 @@ Back to [top of page](# )
 
 ## Usage
 
-* Run `npm start` from command line and enter `http://localhost:3001' in browser's address bar
+* Run `npm start` from command line and test routes in Insomnia
 
 
 ## Insomnia Routes
@@ -62,12 +56,9 @@ Back to [top of page](# )
 * JavaScript
 * Node.js
 * Express.js
-* Express Handlebars
-* MySQL
-* Sequelize
-* bcrypt
-* connect-session-sequelize
-* express-session
+* Nodemon
+* Mongoose
+* MongoDB
 
 ## Made with ❤️ by:
 
