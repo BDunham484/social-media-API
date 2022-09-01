@@ -5,7 +5,7 @@
 
 * The API for a social media site using MongoDB
 
-![MVC-blogging-site](./assets/images/tech-blog-home.png)
+![social-media-API](./assets/images/screenshot.png)
 
 * <a href='https://powerful-journey-30948.herokuapp.com/'>https://powerful-journey-30948.herokuapp.com/</a>
 
