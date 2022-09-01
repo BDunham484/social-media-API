@@ -3,7 +3,7 @@ const { Schema, model, Types } = require('mongoose');
 //import the dateFormat() function
 const dateFormat = require('../utils/dateFormat');
 
-//create the schema for reactions
+//create the schema for reactions using the Schema constructor
 const ReactionSchema = new Schema(
     {
         reactionId: {
@@ -62,7 +62,7 @@ const ThoughtSchema = new Schema({
     }
 );
 
-//get total count of thoughts and reactions on retrieval
+//get total count of reactions on retrieval
 ThoughtSchema.virtual('reactionCount').get(function () {
     return this.reactions.length;
 });

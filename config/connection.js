@@ -1,6 +1,6 @@
 //import the mongoose package
 const mongoose = require('mongoose');
-//establich database connection
+//establish database connection
 mongoose.connect(process.env.MONGODB_URI || 'mongodb://127.0.0.1:27017/social_db', {
     //mongoose configurations
     useNewUrlParser: true,

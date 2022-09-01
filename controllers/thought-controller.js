@@ -1,4 +1,4 @@
-//import the Thought model
+//import the Thought and User model
 const { Thought, User } = require('../models');
 
 //create the controller object
@@ -29,7 +29,7 @@ const ThoughtController = {
             });
     },
     //create a thought
-    addThought({ params, body }, res) {
+    addThought({ body }, res) {
         console.log(body)
         Thought.create(body)
             .then(({ _id }) => {
@@ -131,5 +131,5 @@ const ThoughtController = {
     }
 };
 
-//export Though controller
+//export Thought controller
 module.exports = ThoughtController;
