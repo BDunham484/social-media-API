@@ -1,5 +1,5 @@
 //import the User model
-const { User } = require('../models');
+const { User, Thought } = require('../models');
 
 //create user controller object
 const UserController = {
@@ -68,9 +68,32 @@ const UserController = {
                 res.status(400).json(err);
             });
     },
+    // //delete user by id
+    // deleteUser({ params }, res) {
+    //     User.findOneAndDelete({ _id: params.id })
+    //         .then(dbUserData => {
+    //             //if no user is found, send 404
+    //             if (!dbUserData) {
+    //                 res.status(404).json({ message: 'There is no user with this ID!' });
+    //                 return;
+    //             }
+    //             res.json(dbUserData);
+    //         })
+    //         .catch(err => {
+    //             console.log(err);
+    //             res.status(400).json(err);
+    //         });
+    // },
     //delete user by id
     deleteUser({ params }, res) {
         User.findOneAndDelete({ _id: params.id })
+            .then(data => {
+                console.log(data)
+                return Thought.deleteMany(
+                    { userName: data.userName },
+                    { new: true } 
+                )
+            })
             .then(dbUserData => {
                 //if no user is found, send 404
                 if (!dbUserData) {
