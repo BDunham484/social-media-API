@@ -51,8 +51,6 @@ Back to [top of page](# )
 
 ## Made With
 
-* HTML
-* CSS
 * JavaScript
 * Node.js
 * Express.js
