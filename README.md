@@ -42,12 +42,12 @@ Back to [top of page](# )
 * ![ROUTES](https://img.shields.io/badge/POST-addFriend-brightgreen) <br>`http://localhost:3001/api/users/:userId`<br>
 * ![ROUTES](https://img.shields.io/badge/POST-addThought-brightgreen) <br>`http://localhost:3001/api/users/:userId`<br>
 * ![ROUTES](https://img.shields.io/badge/POST-addReaction-brightgreen) <br>`http://localhost:3001/api/users/:userId`<br>
-* ![ROUTES](https://img.shields.io/badge/GET-getUserById-blueviolet) <br>`http://localhost:3001/api/users/:userId`<br>
-* ![ROUTES](https://img.shields.io/badge/GET-getUserById-blueviolet) <br>`http://localhost:3001/api/users/:userId`<br>
-* ![ROUTES](https://img.shields.io/badge/GET-getUserById-blueviolet) <br>`http://localhost:3001/api/users/:userId`<br>
-* ![ROUTES](https://img.shields.io/badge/GET-getUserById-blueviolet) <br>`http://localhost:3001/api/users/:userId`<br>
-* ![ROUTES](https://img.shields.io/badge/GET-getUserById-blueviolet) <br>`http://localhost:3001/api/users/:userId`<br>
-* ![ROUTES](https://img.shields.io/badge/GET-getUserById-blueviolet) <br>`http://localhost:3001/api/users/:userId`<br>
+* ![ROUTES](https://img.shields.io/badge/PUT-updateUser-orange) <br>`http://localhost:3001/api/users/:userId`<br>
+* ![ROUTES](https://img.shields.io/badge/PUT-updateThought-orange) <br>`http://localhost:3001/api/users/:userId`<br>
+* ![ROUTES](https://img.shields.io/badge/DEL-deleteUser-red) <br>`http://localhost:3001/api/users/:userId`<br>
+* ![ROUTES](https://img.shields.io/badge/DEL-removeFriend-red) <br>`http://localhost:3001/api/users/:userId`<br>
+* ![ROUTES](https://img.shields.io/badge/DEL-deleteThought-red) <br>`http://localhost:3001/api/users/:userId`<br>
+* ![ROUTES](https://img.shields.io/badge/DEL-removeReaction-red) <br>`http://localhost:3001/api/users/:userId`<br>
 
 Back to [top of page](# )
 
