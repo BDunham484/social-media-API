@@ -45,7 +45,7 @@ Back to [top of page](# )
 
 ![Insomnia](./assets/images/insomnia.png)
 
-* ![getAllUsers](https://img.shields.io/badge/GET-getAllUsers-blueviolet) <br>`http://localhost:3001/api/users`
+* ![getAllUsers](https://img.shields.io/badge/GET-getAllUsers-blueviolet) `http://localhost:3001/api/users`
   http://localhost:3001/api/users
 * ![getUserById](https://img.shields.io/badge/GET-getUserById-blueviolet) <br>`http://localhost:3001/api/users/:userId`<br>
 * ![getAllThoughts](https://img.shields.io/badge/GET-geAllThoughts-blueviolet) <br>`http://localhost:3001/api/thoughts`<br>
