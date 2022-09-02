@@ -62,7 +62,6 @@ Back to [top of page](# )
 * ![deleteThought](https://img.shields.io/badge/DEL-deleteThought-fc0703) <br>`http://localhost:3001/api/thoughts/:userId/:thoughtId`
 * ![removeReaction](https://img.shields.io/badge/DEL-removeReaction-fc0703) <br>`http://localhost:3001/api/thoughts/:thoughtId/reactions/reactionId`
 
-Back to [top of page](# )
 
 ## Made With
 
