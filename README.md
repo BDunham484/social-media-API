@@ -60,7 +60,7 @@ Back to [top of page](# )
 * ![deleteUser](https://img.shields.io/badge/DEL-deleteUser-fc0703) <br>`http://localhost:3001/api/users/:id`
 * ![removeFriend](https://img.shields.io/badge/DEL-removeFriend-fc0703) <br>`http://localhost:3001/api/users/:userId/friends/:frinedId`
 * ![deleteThought](https://img.shields.io/badge/DEL-deleteThought-fc0703) <br>`http://localhost:3001/api/thoughts/:userId/:thoughtId`
-* ![removeReaction](https://img.shields.io/badge/DEL-removeReaction-fc0703) <br>`http://localhost:3001/api/thoughts/:thoughtId/reactions/reactionId`
+* ![removeReaction](https://img.shields.io/badge/DEL-removeReaction-fc0703?style=plastic) <br>`http://localhost:3001/api/thoughts/:thoughtId/reactions/reactionId`
 
 
 ## Made With
