@@ -47,19 +47,19 @@ Back to [top of page](# )
 
 ![Insomnia](./assets/images/insomnia.png)
 
-* ![getAllUsers](https://img.shields.io/badge/GET-getAllUsers-blueviolet) <br>`http://localhost:3001/api/users`
-* ![getUserById](https://img.shields.io/badge/GET-getUserById-blueviolet) <br>`http://localhost:3001/api/users/:userId`
-* ![getAllThoughts](https://img.shields.io/badge/GET-geAllThoughts-blueviolet) <br>`http://localhost:3001/api/thoughts`
-* ![getThoughtsById](https://img.shields.io/badge/GET-getThoughtById-blueviolet) <br>`http://localhost:3001/api/thoughts/:id`
-* ![createUser](https://img.shields.io/badge/POST-createUser-brightgreen) <br>`http://localhost:3001/api/users`
-* ![addFriend](https://img.shields.io/badge/POST-addFriend-brightgreen) <br>`http://localhost:3001/api/users/:userId/friends/:friendId`
-* ![addThought](https://img.shields.io/badge/POST-addThought-brightgreen) <br>`http://localhost:3001/api/thoughts`
-* ![addReaction](https://img.shields.io/badge/POST-addReaction-brightgreen) <br>`http://localhost:3001/api/thoughts/:thoughtId/reactions`
-* ![updateUser](https://img.shields.io/badge/PUT-updateUser-orange) <br>`http://localhost:3001/api/users/:id`
-* ![updateThought](https://img.shields.io/badge/PUT-updateThought-orange) <br>`http://localhost:3001/api/thoughts/:id`
-* ![deleteUser](https://img.shields.io/badge/DEL-deleteUser-fc0703) <br>`http://localhost:3001/api/users/:id`
-* ![removeFriend](https://img.shields.io/badge/DEL-removeFriend-fc0703) <br>`http://localhost:3001/api/users/:userId/friends/:frinedId`
-* ![deleteThought](https://img.shields.io/badge/DEL-deleteThought-fc0703) <br>`http://localhost:3001/api/thoughts/:userId/:thoughtId`
+* ![getAllUsers](https://img.shields.io/badge/GET-getAllUsers-blueviolet?style=plastic) <br>`http://localhost:3001/api/users`
+* ![getUserById](https://img.shields.io/badge/GET-getUserById-blueviolet?style=plastic) <br>`http://localhost:3001/api/users/:userId`
+* ![getAllThoughts](https://img.shields.io/badge/GET-geAllThoughts-blueviolet?style=plastic) <br>`http://localhost:3001/api/thoughts`
+* ![getThoughtsById](https://img.shields.io/badge/GET-getThoughtById-blueviolet?style=plastic) <br>`http://localhost:3001/api/thoughts/:id`
+* ![createUser](https://img.shields.io/badge/POST-createUser-brightgreen?style=plastic) <br>`http://localhost:3001/api/users`
+* ![addFriend](https://img.shields.io/badge/POST-addFriend-brightgreen?style=plastic) <br>`http://localhost:3001/api/users/:userId/friends/:friendId`
+* ![addThought](https://img.shields.io/badge/POST-addThought-brightgreen?style=plastic) <br>`http://localhost:3001/api/thoughts`
+* ![addReaction](https://img.shields.io/badge/POST-addReaction-brightgreen?style=plastic) <br>`http://localhost:3001/api/thoughts/:thoughtId/reactions`
+* ![updateUser](https://img.shields.io/badge/PUT-updateUser-orange?style=plastic) <br>`http://localhost:3001/api/users/:id`
+* ![updateThought](https://img.shields.io/badge/PUT-updateThought-orange?style=plastic) <br>`http://localhost:3001/api/thoughts/:id`
+* ![deleteUser](https://img.shields.io/badge/DEL-deleteUser-fc0703?style=plastic) <br>`http://localhost:3001/api/users/:id`
+* ![removeFriend](https://img.shields.io/badge/DEL-removeFriend-fc0703?style=plastic) <br>`http://localhost:3001/api/users/:userId/friends/:frinedId`
+* ![deleteThought](https://img.shields.io/badge/DEL-deleteThought-fc0703?style=plastic) <br>`http://localhost:3001/api/thoughts/:userId/:thoughtId`
 * ![removeReaction](https://img.shields.io/badge/DEL-removeReaction-fc0703?style=plastic) <br>`http://localhost:3001/api/thoughts/:thoughtId/reactions/reactionId`
 
 
