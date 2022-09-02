@@ -5,6 +5,7 @@
 ![Insomnia](https://img.shields.io/badge/Insomnia-black?style=plastic&logo=insomnia&logoColor=5849BE)
 ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=plastic&logo=node.js&logoColor=white)
 ![Mongoose](https://img.shields.io/badge/6.5.4-Mongoose-%23800000?style=plastic)
+![Nodemon](https://img.shields.io/badge/Nodemon-76D04B?style=plastic&logo=nodemon)
 
 ## Description: 
 
