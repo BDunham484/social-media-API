@@ -19,7 +19,7 @@ The API for a social media site using MongoDB.  CRUD methods can be run on users
 ![social-media-API](./assets/images/screenshot.png)
 
 
-* <a href="https://drive.google.com/file/d/1-3tLx2f7EOhikivrF1LMj2g-ZJccb1wo/view">Walkthrough Video: Part-1</a>
+* <a href="https://drive.google.com/file/d/1-3tLx2f7EOhikivrF1LMj2g-ZJccb1wo/view 'Part-1'">Walkthrough Video: Part-1</a>
 * <a href="https://drive.google.com/file/d/1OibIzO5kFVBNF-8q0txcEgYyu3Edl2Pf/view">Walkthrough Video: Part-2</a>
 
 ## Table of Contents
