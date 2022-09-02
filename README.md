@@ -30,6 +30,7 @@ The API for a social media site using MongoDB.  CRUD methods can be run on users
 
 ## Installation
 
+* Make sure MongoDB is installed locally
 * Run `npm init -y` from command line
 * run `npm i` to install dependencies
 
