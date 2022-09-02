@@ -32,8 +32,6 @@ The API for a social media site using MongoDB.  CRUD methods can be run on users
 * Run `npm init -y` from command line
 * run `npm i` to install dependencies
 
-![MVC-blogging-site](./assets/images/tech-blog-install.png)
-
 Back to [top of page](# )
 
 ## Usage
@@ -45,20 +43,20 @@ Back to [top of page](# )
 
 ![Insomnia](./assets/images/insomnia.png)
 
-* ![ROUTES](https://img.shields.io/badge/GET-getAllUsers-blueviolet) <br>`http://localhost:3001/api/users`<br>
-* ![ROUTES](https://img.shields.io/badge/GET-getUserById-blueviolet) <br>`http://localhost:3001/api/users/:userId`<br>
-* ![ROUTES](https://img.shields.io/badge/GET-geAllThoughts-blueviolet) <br>`http://localhost:3001/api/thoughts`<br>
-* ![ROUTES](https://img.shields.io/badge/GET-getThoughtById-blueviolet) <br>`http://localhost:3001/api/thoughts/:id`<br>
-* ![ROUTES](https://img.shields.io/badge/POST-createUser-brightgreen) <br>`http://localhost:3001/api/users`<br>
-* ![ROUTES](https://img.shields.io/badge/POST-addFriend-brightgreen) <br>`http://localhost:3001/api/users/:useId/friends/:friendId`<br>
-* ![ROUTES](https://img.shields.io/badge/POST-addThought-brightgreen) <br>`http://localhost:3001/api/thoughts`<br>
-* ![ROUTES](https://img.shields.io/badge/POST-addReaction-brightgreen) <br>`http://localhost:3001/api/thoughts/:thoughtId/reactions`<br>
-* ![ROUTES](https://img.shields.io/badge/PUT-updateUser-orange) <br>`http://localhost:3001/api/users/:id`<br>
-* ![ROUTES](https://img.shields.io/badge/PUT-updateThought-orange) <br>`http://localhost:3001/api/thoughts/:id`<br>
-* ![ROUTES](https://img.shields.io/badge/DEL-deleteUser-fc0703) <br>`http://localhost:3001/api/users/:id`<br>
-* ![ROUTES](https://img.shields.io/badge/DEL-removeFriend-fc0703) <br>`http://localhost:3001/api/users/:userId/friends/:frinedId`<br>
-* ![ROUTES](https://img.shields.io/badge/DEL-deleteThought-fc0703) <br>`http://localhost:3001/api/thoughts/:userId/:thoughtId`<br>
-* ![ROUTES](https://img.shields.io/badge/DEL-removeReaction-fc0703) <br>`http://localhost:3001/api/thoughts/:thoughtId/reactions/reactionId`<br>
+* ![getAllUsers](https://img.shields.io/badge/GET-getAllUsers-blueviolet) <br>`http://localhost:3001/api/users`<br>
+* ![getUserById](https://img.shields.io/badge/GET-getUserById-blueviolet) <br>`http://localhost:3001/api/users/:userId`<br>
+* ![getAllThoughts](https://img.shields.io/badge/GET-geAllThoughts-blueviolet) <br>`http://localhost:3001/api/thoughts`<br>
+* ![getThoughtsById](https://img.shields.io/badge/GET-getThoughtById-blueviolet) <br>`http://localhost:3001/api/thoughts/:id`<br>
+* ![createUser](https://img.shields.io/badge/POST-createUser-brightgreen) <br>`http://localhost:3001/api/users`<br>
+* ![addFriend](https://img.shields.io/badge/POST-addFriend-brightgreen) <br>`http://localhost:3001/api/users/:userId/friends/:friendId`<br>
+* ![addThought](https://img.shields.io/badge/POST-addThought-brightgreen) <br>`http://localhost:3001/api/thoughts`<br>
+* ![addReaction](https://img.shields.io/badge/POST-addReaction-brightgreen) <br>`http://localhost:3001/api/thoughts/:thoughtId/reactions`<br>
+* ![updateUser](https://img.shields.io/badge/PUT-updateUser-orange) <br>`http://localhost:3001/api/users/:id`<br>
+* ![updateThought](https://img.shields.io/badge/PUT-updateThought-orange) <br>`http://localhost:3001/api/thoughts/:id`<br>
+* ![deleteUser](https://img.shields.io/badge/DEL-deleteUser-fc0703) <br>`http://localhost:3001/api/users/:id`<br>
+* ![removeFriend](https://img.shields.io/badge/DEL-removeFriend-fc0703) <br>`http://localhost:3001/api/users/:userId/friends/:frinedId`<br>
+* ![deleteThought](https://img.shields.io/badge/DEL-deleteThought-fc0703) <br>`http://localhost:3001/api/thoughts/:userId/:thoughtId`<br>
+* ![removeReaction](https://img.shields.io/badge/DEL-removeReaction-fc0703) <br>`http://localhost:3001/api/thoughts/:thoughtId/reactions/reactionId`<br>
 
 Back to [top of page](# )
 
@@ -71,13 +69,7 @@ Back to [top of page](# )
 * Mongoose
 * MongoDB
 
-## Made with ❤️ by:
-
-* Brad Dunham
-
-## Contributing
-
-Feel free to submit an issue!
+### Made with ❤️ by  Brad Dunham
 
 Back to [top of page](# )
 
