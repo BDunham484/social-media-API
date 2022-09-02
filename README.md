@@ -1,4 +1,5 @@
 # <h1 align="center">social-media-API</h1> <br>[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+<span align="center">
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=plastic&logo=javascript&logoColor=%23F7DF1E)
 ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=plastic&logo=express&logoColor=%2361DAFB)
 ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=plastic&logo=mongodb&logoColor=white)
@@ -6,6 +7,7 @@
 ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=plastic&logo=node.js&logoColor=white)
 ![Mongoose](https://img.shields.io/badge/6.5.4-Mongoose-%23800000?style=plastic)
 ![Nodemon](https://img.shields.io/badge/Nodemon-4F4D3F?style=plastic&logo=nodemon)
+</span>
 
 ## Description: 
 
