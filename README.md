@@ -14,7 +14,7 @@
 
 ## Description: 
 
-* The API for a social media site using MongoDB
+The API for a social media site using MongoDB.  CRUD methods can be run on users, thoughts, and reactions via routes and controllers in Insomnia. There is a User and Thought model.  Reactions are a subdocument of thoughts.  
 
 ![social-media-API](./assets/images/screenshot.png)
 
