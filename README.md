@@ -26,7 +26,7 @@ The API for a social media site using MongoDB.  CRUD methods can be run on users
 - [Usage](#usage)
 - [Insomnia Routes](#insomnia-routes)
 - [Made With](#made-with)
-- [Contributing](#contributing)
+
 
 ## Installation
 
