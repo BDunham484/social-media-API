@@ -53,9 +53,9 @@ Back to [top of page](# )
 * ![ROUTES](https://img.shields.io/badge/POST-addReaction-brightgreen) <br>`http://localhost:3001/api/thoughts/:thoughtId/reactions`<br>
 * ![ROUTES](https://img.shields.io/badge/PUT-updateUser-orange) <br>`http://localhost:3001/api/users/:id`<br>
 * ![ROUTES](https://img.shields.io/badge/PUT-updateThought-orange) <br>`http://localhost:3001/api/thoughts/:id`<br>
-* ![ROUTES](https://img.shields.io/badge/DEL-deleteUser-red) <br>`http://localhost:3001/api/users/:id`<br>
-* ![ROUTES](https://img.shields.io/badge/DEL-removeFriend-red) <br>`http://localhost:3001/api/users/:userId/friends/:frinedId`<br>
-* ![ROUTES](https://img.shields.io/badge/DEL-deleteThought-red) <br>`http://localhost:3001/api/thoughts/:userId/:thoughtId`<br>
+* ![ROUTES](https://img.shields.io/badge/DEL-deleteUser-fc0703) <br>`http://localhost:3001/api/users/:id`<br>
+* ![ROUTES](https://img.shields.io/badge/DEL-removeFriend-fc0703) <br>`http://localhost:3001/api/users/:userId/friends/:frinedId`<br>
+* ![ROUTES](https://img.shields.io/badge/DEL-deleteThought-fc0703) <br>`http://localhost:3001/api/thoughts/:userId/:thoughtId`<br>
 * ![ROUTES](https://img.shields.io/badge/DEL-removeReaction-fc0703) <br>`http://localhost:3001/api/thoughts/:thoughtId/reactions/reactionId`<br>
 
 Back to [top of page](# )
