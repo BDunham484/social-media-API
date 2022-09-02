@@ -1,6 +1,6 @@
 # <h1 align="center">social-media-API <br>[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)</h1>
 
-## Technologies
+## Technologies 🤖
 
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=plastic&logo=javascript&logoColor=%23F7DF1E)
 ![Git](https://img.shields.io/badge/-Git-F05032?logo=Git&logoColor=white)
