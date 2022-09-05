@@ -1,4 +1,4 @@
-# <h1 align="center">social-media-API <br>[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)</h1>
+# <h1 align="center">social-media-API <br>[![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=plastic.svg)](https://opensource.org/licenses/MIT)</h1>
 
 ## Technologies 🤖
 
